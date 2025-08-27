@@ -45,6 +45,20 @@ IA Avanzada: Es capaz de aprender y razonar a un nivel similar al de los humanos
 
 Superinteligencia Artificial: Es una IA que supera la inteligencia humana en todos los aspectos. _"Supera la inteligencia humana"_
 
+**La visualizacion en el ML**
+
+La visualización nos ayuda a entender las predicciones de un modelo de machine learning. Es muy útil en problemas sencillos con solo dos o tres características, donde podemos ver las regiones de decisión y las fronteras de decisión. Sin embargo, se vuelve casi imposible en problemas con muchas características (cientos o miles), por lo que su utilidad es limitada a esos 
+casos simples.
+
+**Evaluación de la Clasificación**
+
+***Sobreajuste (Overfitting)***: Ocurre cuando un modelo de machine learning se ajusta demasiado a los datos de entrenamiento, capturando no solo las tendencias generales sino también el ruido y las fluctuaciones aleatorias. Esto puede llevar a un rendimiento deficiente en datos nuevos o no vistos, ya que el modelo no generaliza bien. _"Un modelo sobreajustado puede tener una alta precisión en los datos de entrenamiento pero una baja precisión en los datos de prueba o en situaciones del mundo real"_
+
+***Función de pérdida (Loss Function)***: se utiliza para resumir en un solo número qué tan bien nuestras predicciones coinciden con las etiquetas reales. Calculemos la tasa de error de clasificación (en inglés, misclassification rate) contando el número total de errores de clasificación y dividiéndolo por el número total de puntos de datos:
+
+![alt text](imagenes/imageA.png)
+
+
 
 
 
